@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap');
+
+html {
+	font: 16px/1.5 "Pacifico" , Lobster, Times New Roman ;
+}
+
+p {
+	font: 16px/1.5 Calibri, Times New Roman ;
+}
+
+
+@media screen and (min-width: 400px) {
+	html {
+		font-site: 14px;
+	}
+}
+@media screen and (min-width: 800px) {
+	html {
+		font-site: 16px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	html {
+		font-site: 18px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	html {
+		font-site: 20px;
+	}
+}
+
+h1, h2,h3,h4,h5,h6 {
+	font:1em/1.2 'Pacifico', 'Lobster';
+}
+
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 2.0rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
